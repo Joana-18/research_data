@@ -38,11 +38,6 @@ def sph_to_wav(path):
             print(sph.format)
             sph.write_wav(output_file_path)
 
-# print("EARNINGS-21 -- TEST SET", flush = True)
-# mp3_to_wav(DATASET_PATH)
-# print("ISCI -- TEST SET", flush = True)
-# sph_to_wav(DATASET_PATH)
-print("THIS AMERICAN LIFE -- TEST SET", flush = True)
 mp3_to_wav(DATASET_PATH)
 flac_to_wav(DATASET_PATH)
 sph_to_wav(DATASET_PATH)

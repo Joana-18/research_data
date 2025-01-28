@@ -16,8 +16,8 @@ DEVICE = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 PY2_1 =  "2.1/"
 PY3_1 =  "3.1/"
 
-OUTPUT_ASR_DIA_PATH = '/research_data/WhisperX/'
-OUTPUT_DIA_PATH = '/research_data/pyannote'
+OUTPUT_ASR_DIA_PATH = '/research_data/diarization/WhisperX/'
+OUTPUT_DIA_PATH = '/research_data/diarization/pyannote'
 
 
 # PYANNOTE
